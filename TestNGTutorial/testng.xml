@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<parameter name="URL" value="qaclickacademy.com"/>
+	<listeners>
+		<listener class-name="TestNGTesting.Listerns"/>
+	</listeners>
+  <test thread-count="5" name="Persona Loan">
+  	<parameter name="URL" value="personalloan.com"/>
+    <classes>
+      <class name="TestNGTesting.TestNGbasics">
+      	<methods>
+      		<include name="Demo"/>
+      	</methods>
+      </class>
+      <class name="TestNGTesting.TestNGbasics2"/>
+      <class name="TestNGTesting.TestNGbasics4"/>
+    </classes>
+  </test>
+    <test name="Car Loan">
+    	<parameter name="URL" value="carloan.com"/>
+    	<parameter name="APIKey/usrname" value="abcd1234"/>
+      <classes>
+    	  <class name="TestNGTesting.TestNGbasics3">
+    	  	<methods>
+    	  		<exclude name="API.*"/> 
+    	  	</methods>
+    	  </class>
+      </classes>
+    </test>
+ 
+</suite> 

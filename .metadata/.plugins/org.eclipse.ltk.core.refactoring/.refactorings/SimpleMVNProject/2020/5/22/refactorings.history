@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;TestPackage.TestAmazon&apos; to &apos;AmithaAmazon&apos;&#x0D;&#x0A;- Original project: &apos;SimpleMVNProject&apos;&#x0D;&#x0A;- Original element: &apos;TestPackage.TestAmazon&apos;&#x0D;&#x0A;- Renamed element: &apos;TestPackage.AmithaAmazon&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TestAmazon&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;TestPackage{TestAmazon.java[TestAmazon" matchStrategy="1" name="AmithaAmazon" qualified="false" references="true" similarDeclarations="false" stamp="1590458236611" textual="false" version="1.0"/>
+</session>

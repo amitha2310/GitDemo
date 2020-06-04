@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;RediffE2E.java&apos; to &apos;By.java&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Destination element: &apos;By.java&apos;&#x0D;&#x0A;- Original element: &apos;RediffE2E.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Test/src&lt;{By.java" element1="/src&lt;{RediffE2E.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1588364775244" units="1" version="1.0"/>
+</session>

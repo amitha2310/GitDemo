@@ -1,0 +1,30 @@
+
+public class ExampleClass1 {
+
+	public class Car {
+		int tires;
+		int wheels;
+		void Car() {
+			System.out.println("This is a car");
+		}
+		void start() {
+			System.out.println("START from Base Class");
+		}
+		
+		void stop() {
+			System.out.println(" Stop from Base Class ");
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("This is start of the program");
+		
+		Car Honda = new Car();
+		
+		System.out.println("End of Program");
+	}
+
+	}
+
+
+

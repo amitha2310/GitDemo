@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="13" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="81" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+    <groups>
+      <group name="smoke">
+        <method signature="TestNGbasics.Demo()[pri:0, instance:TestNGTesting.TestNGbasics@6325a3ee]" name="Demo" class="TestNGTesting.TestNGbasics"/>
+        <method signature="TestNGbasics2.ploan()[pri:0, instance:TestNGTesting.TestNGbasics2@3a5ed7a6]" name="ploan" class="TestNGTesting.TestNGbasics2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Persona Loan" duration-ms="39" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+      <class name="TestNGTesting.TestNGbasics4">
+        <test-method status="PASS" signature="MobileloginHomeLoan()[pri:0, instance:TestNGTesting.TestNGbasics4@7791a895]" name="MobileloginHomeLoan" duration-ms="1" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginHomeLoan -->
+        <test-method status="PASS" signature="bfclass()[pri:0, instance:TestNGTesting.TestNGbasics4@7791a895]" name="bfclass" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfclass -->
+        <test-method status="PASS" signature="WebloginHomeLoan(java.lang.String)[pri:0, instance:TestNGTesting.TestNGbasics4@7791a895]" name="WebloginHomeLoan" duration-ms="1" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+        <test-method status="PASS" signature="APIloginHomeLoan()[pri:0, instance:TestNGTesting.TestNGbasics4@7791a895]" name="APIloginHomeLoan" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" depends-on-methods="TestNGTesting.TestNGbasics4.MobileloginHomeLoan, TestNGTesting.TestNGbasics4.WebloginHomeLoan" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIloginHomeLoan -->
+      </class> <!-- TestNGTesting.TestNGbasics4 -->
+      <class name="TestNGTesting.TestNGbasics2">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:TestNGTesting.TestNGbasics2@3a5ed7a6]" name="prerequisite" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:TestNGTesting.TestNGbasics2@3a5ed7a6]" name="ploan" duration-ms="1" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- TestNGTesting.TestNGbasics2 -->
+      <class name="TestNGTesting.TestNGbasics">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:TestNGTesting.TestNGbasics@6325a3ee]" name="Demo" duration-ms="5" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:TestNGTesting.TestNGbasics@6325a3ee]" name="lastexecution" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- TestNGTesting.TestNGbasics -->
+    </test> <!-- Persona Loan -->
+    <test name="Car Loan" duration-ms="18" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+      <class name="TestNGTesting.TestNGbasics4">
+        <test-method status="PASS" signature="bfsuite()[pri:0, instance:TestNGTesting.TestNGbasics4@7791a895]" name="bfsuite" is-config="true" duration-ms="6" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+      </class> <!-- TestNGTesting.TestNGbasics4 -->
+      <class name="TestNGTesting.TestNGbasics3">
+        <test-method status="PASS" signature="MobileloginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="MobileloginCarLoan" duration-ms="1" started-at="2020-05-24T18:04:08 PDT" data-provider="getdata" finished-at="2020-05-24T18:04:08 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarLoan -->
+        <test-method status="PASS" signature="bfeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="bfeverymethod" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfeverymethod -->
+        <test-method status="PASS" signature="bfeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="bfeverymethod" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfeverymethod -->
+        <test-method status="PASS" signature="MobileloginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="MobileloginCarLoan" duration-ms="1" started-at="2020-05-24T18:04:08 PDT" data-provider="getdata" finished-at="2020-05-24T18:04:08 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarLoan -->
+        <test-method status="PASS" signature="afeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="afeverymethod" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeverymethod -->
+        <test-method status="PASS" signature="MobileloginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="MobileloginCarLoan" duration-ms="1" started-at="2020-05-24T18:04:08 PDT" data-provider="getdata" finished-at="2020-05-24T18:04:08 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarLoan -->
+        <test-method status="PASS" signature="afeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="afeverymethod" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeverymethod -->
+        <test-method status="PASS" signature="bfeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="bfeverymethod" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfeverymethod -->
+        <test-method status="PASS" signature="bfeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="bfeverymethod" is-config="true" duration-ms="1" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfeverymethod -->
+        <test-method status="PASS" signature="afeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="afeverymethod" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeverymethod -->
+        <test-method status="PASS" signature="MobilesignoutCarLoan()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="MobilesignoutCarLoan" duration-ms="3" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutCarLoan -->
+        <test-method status="PASS" signature="bfeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="bfeverymethod" is-config="true" duration-ms="1" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfeverymethod -->
+        <test-method status="PASS" signature="afeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="afeverymethod" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeverymethod -->
+        <test-method status="PASS" signature="WebloginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="WebloginCarLoan" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+        <test-method status="PASS" signature="afclass()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="afclass" is-config="true" duration-ms="1" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afclass -->
+        <test-method status="PASS" signature="afeverymethod()[pri:0, instance:TestNGTesting.TestNGbasics3@5d76b067]" name="afeverymethod" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeverymethod -->
+      </class> <!-- TestNGTesting.TestNGbasics3 -->
+      <class name="TestNGTesting.TestNGbasics">
+        <test-method status="PASS" signature="afsuite()[pri:0, instance:TestNGTesting.TestNGbasics@6325a3ee]" name="afsuite" is-config="true" duration-ms="0" started-at="2020-05-24T18:04:08 PDT" finished-at="2020-05-24T18:04:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- TestNGTesting.TestNGbasics -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

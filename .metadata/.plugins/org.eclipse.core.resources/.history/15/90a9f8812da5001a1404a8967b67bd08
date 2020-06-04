@@ -1,0 +1,17 @@
+
+public class Car {
+	 
+		int tires;
+		int wheels;
+		void Car() {
+			System.out.println("This is a car");
+		}
+		void start() {
+			System.out.println("START from Base Class");
+		}
+		
+		void stop() {
+			System.out.println(" Stop from Base Class ");
+		}
+ 
+}
